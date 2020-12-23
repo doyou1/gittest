@@ -150,4 +150,10 @@
         : 깃허브에서 업데이트된 변경사항을 로컬레포로 가져오기
     </ul>
 </ol>
-
+<ol>
+    <ul>
+        git pull 리모트명 브런치명
+        : git pull origin master
+        : fetch + merge 기능
+    </ul>
+</ol>
