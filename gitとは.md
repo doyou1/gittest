@@ -139,7 +139,15 @@
     </ul>
     <ul>
         git remote add 리모트명 리모트url
-        git remote add tutorial "url"
+        : git remote add tutorial "url"
+    </ul>
+</ol>
+
+<ol>
+    <ul>
+        git fetch 리모트명
+        : git fetch origin
+        : 깃허브에서 업데이트된 변경사항을 로컬레포로 가져오기
     </ul>
 </ol>
 
