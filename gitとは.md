@@ -61,11 +61,11 @@
     <ul>
     디테일한 작동원리는 모르나
     git rm 후 add 안했을 시
-
-    git reset HEAD "파일명"
-    git checkout "파일명"
-    실행시 rm한 파일 복구 
+    - git reset HEAD "파일명"
+    - git checkout "파일명"
+    - 실행시 rm한 파일 복구 
     서로 하는 역할 다름
+    </ul>
     </ul>
 </ol>
 
@@ -79,4 +79,27 @@
     </ul>
 </ol>
 
+<ol>
+    <p>alias 설정하기</p>
+    <ul>
+    git config --global alias.ci commit
+    : commit의 단축어로 ci 설정
+    git config --global alias.st status
+    : status의 단축어로 st 설정
+    git config --global alias.br brunch
+    : brunch의 단축어로 br 설정
+    git config --global alias.co checkout
+    : checkout의 단축어로 co 설정
+    </ul>
+    <ul>
+    git config --global alias.st status
+    git st = git status
+    </ul>
+</ol>
 
+<ol>
+    <p>.gitignore</p>
+    <ul>
+        #으로 시작하는 행은 코멘트
+    </ul>
+</ol>
