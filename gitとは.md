@@ -119,5 +119,7 @@
     <p>직전 커밋 고치기</p>
     <ul>
         git commit --amend
+
+        - 깃허브에 Push한커밋은 되돌릴수없음
     </ul>
 </ol>
