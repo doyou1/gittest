@@ -103,3 +103,21 @@
         #으로 시작하는 행은 코멘트
     </ul>
 </ol>
+
+<ol>
+    <ul>
+        git checkout -- "파일명"
+        git checkout -- "디렉터리명"
+        : 파일, 폴더 변경을 취소함
+        // add 안돼있다면, 직전 커밋한 스냅샷으로 되돌림
+        git checkout -- .
+        : 전체 변경 취소
+    </ul>
+</ol>
+
+<ol>   
+    <p>직전 커밋 고치기</p>
+    <ul>
+        git commit --amend
+    </ul>
+</ol>
