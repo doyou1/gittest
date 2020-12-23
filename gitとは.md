@@ -106,6 +106,10 @@
 
 <ol>
     <ul>
+        git reset HEAD
+        : 스테이지에 올린 변경사항을 취소함
+    </ul>
+    <ul>
         git checkout -- "파일명"
         git checkout -- "디렉터리명"
         : 파일, 폴더 변경을 취소함
@@ -123,3 +127,19 @@
         - 깃허브에 Push한커밋은 되돌릴수없음
     </ul>
 </ol>
+
+<ol>
+    <ul>
+        git remote
+        : 리모트 출력
+    </ul>
+    <ul>
+        git remote -v
+        : 리모트 + url(fetch : 가져오기, push : 올리기)
+    </ul>
+    <ul>
+        git remote add 리모트명 리모트url
+        git remote add tutorial "url"
+    </ul>
+</ol>
+
