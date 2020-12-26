@@ -66,7 +66,6 @@
     - 실행시 rm한 파일 복구 
     서로 하는 역할 다름
     </ul>
-    </ul>
 </ol>
 
 <ol>
@@ -123,7 +122,6 @@
     <p>직전 커밋 고치기</p>
     <ul>
         git commit --amend
-
         - 깃허브에 Push한커밋은 되돌릴수없음
     </ul>
 </ol>
@@ -155,5 +153,74 @@
         git pull 리모트명 브런치명
         : git pull origin master
         : fetch + merge 기능
+    </ul>
+    <ul>
+        pull의 주의점
+        : git pull origin hoge 실행시
+        - master 브랜치에 hoge 브랜치가 merge됨(현재 브랜치에 pull한 브랜치가 병합됨) * 주의 ! *
+        - 확실히 이해하고 사용하자
+    </ul>
+</ol>
+<ol>
+    <ul>
+        - git remote show origin
+        - Fetch, Push의 URL
+        - remote 브랜치
+        - git pull과 git push의 활동
+    </ul>
+</ol>
+<ol>
+    <ul>
+        - git remote rename 구리모트명 신리모트명
+        : git remote rename tutorial new_tutorial
+        : 리모트명 변경시
+        - git rm 리모트명
+        : git remote rm new_tutorial
+        : 리모트 삭제시
+    </ul>
+</ol>
+<ol>
+    <ul>
+        branch와 merge
+    </ul>
+    <ul>
+        branch
+        : 분리해서 개발하기 위한 것
+        : 커밋을 가리키는 포인터
+        HEAD
+        : 지금 작업하고 있는 브랜치(가장 최근 커밋한 브랜치)
+    </ul>
+    <ul>
+        - 브랜치 정리
+        1. 분리해서 복수의 기능을 동시에 개발하기 위한 구조
+        2. 브랜치는 커밋을 가리키는 포인터
+        3. 브랜치 작성, 변경, merge가 다른 버전관리 툴보다 빠르다
+        4. 그래서 git은 대규모 개발에 많이 사용되는 툴이다.
+    </ul>
+</ol>
+<ol>
+    <ul>
+        git branch 브랜치명
+        : git  branch feature
+        : 브랜치를 신규추가
+    </ul>
+    <ul>
+        git branch
+        git branch -a
+        : 브랜치 일람을 표시
+    </ul>
+    <ul>
+        git log --oneline --decorate
+        : 브랜치 변경 확인
+        : d3b93ec (HEAD -> master, origin/master, feature) 201224 새벽공부 깃 어렵다
+    </ul>
+</ol> 
+<ol>
+    <ul>
+        git checkout 존재브랜치명
+        : git checkout 
+        : 브랜치 변경
+        git checkout -b 신규브랜치명
+        : 브랜치를 만들면서 변경
     </ul>
 </ol>
